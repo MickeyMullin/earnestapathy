@@ -1,1 +1,0 @@
-EarnestApathy.com DocPad docs
