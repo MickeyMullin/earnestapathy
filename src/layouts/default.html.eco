@@ -1,0 +1,18 @@
+<html>
+<head>
+	<title><%= @document.title %> | Earnest Apathy</title>
+	<%- @getBlock('meta').toHTML() %>
+	<%- @getBlock('styles').add(['/css/style.css']).toHTML() %>
+</head>
+<body>
+	<h1><%= @document.title %></h1>
+	<%- @content %>
+
+	<hr />
+	<cite>&copy; Mickey Mullin; all rights reserved.</cite>
+	<br />
+	<img src="/img/logo.png" />
+
+	<%- @getBlock('scripts').add(['/lib/jquery.js','/js/script.js']).toHTML() %>
+</body>
+</html>

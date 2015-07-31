@@ -1,0 +1,15 @@
+# temp files
+**/*.log
+**/.docpad.db
+
+# build files
+build/
+components/
+bower_components/
+node_modules/
+out/
+
+# private files
+.env
+.idea
+.cake_task_cache
